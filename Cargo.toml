@@ -1,6 +1,9 @@
 [package]
 name = "zero2prod"
 version = "0.1.0"
+#authors = ["Inwerejosic"]
 edition = "2024"
 
 [dependencies]
+actix-web = "4.11.0"
+tokio = {version = "1", features = ["macros", "rt-multi-thread"]}
